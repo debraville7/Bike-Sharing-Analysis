@@ -9,6 +9,7 @@ import numpy as np
 %matplotlib inline
 ```
 
+# Understanding the data
 ```python
 # load hourly data
 hourly_data = pd.read_csv('https://raw.githubusercontent.com/'\
