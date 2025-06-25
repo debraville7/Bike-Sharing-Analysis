@@ -21,3 +21,5 @@ hourly_data = pd.read_csv('https://raw.githubusercontent.com/'\
 ```python
 hourly_data.head(10)
 ```
+
+![Image](https://github.com/user-attachments/assets/d7397000-2a32-4daf-8071-bf8f93e5debb)
