@@ -9,6 +9,11 @@ import numpy as np
 %matplotlib inline
 ```
 
+
+# Problem Statement
+Bike-sharing services generate large volumes of data, but understanding how usage fluctuates based on temporal patterns and weather conditions remains a challenge. Without clear insights into how factors such as time of day, day of the week, seasonality, temperature, and precipitation influence ridership, service providers may struggle to optimize bike availability and meet user demand. This study seeks to analyze usage data from bike-sharing systems to identify meaningful patterns and correlations driven by time features and weather variables, ultimately supporting data-driven operational and planning decisions.
+
+
 ## Understanding the data
 ```python
 # load hourly data
