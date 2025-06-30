@@ -11,7 +11,11 @@ import numpy as np
 
 
 # Problem Statement
-Bike-sharing services generate large volumes of data, but understanding how usage fluctuates based on temporal patterns and weather conditions remains a challenge. Without clear insights into how factors such as time of day, day of the week, seasonality, temperature, and precipitation influence ridership, service providers may struggle to optimize bike availability and meet user demand. This study seeks to analyze usage data from bike-sharing systems to identify meaningful patterns and correlations driven by time features and weather variables, ultimately supporting data-driven operational and planning decisions.
+This project seeks to investigate how temporal features and weather conditions affect the number of bike rentals per hour, aiming to uncover meaningful insights that can inform operational strategies and improve service responsiveness.
+
+
+# Introduction
+This project focuses on analyzing bike-sharing usage data from Capital Bikeshare in Washington, D.C., covering the period from January 1, 2011, to December 31, 2012. The dataset provides hourly aggregated counts of total bike rentals, without individual trip details such as start and end locations. Despite this limitation, the dataset includes rich meteorological information—such as temperature, humidity, and weather conditions—which can be valuable for uncovering patterns in user demand. By examining the relationship between time-based variables and weather factors, this analysis aims to identify trends and influences on hourly bike rental activity, offering insights into how external conditions affect bike-sharing usage.
 
 
 ## Understanding the data
