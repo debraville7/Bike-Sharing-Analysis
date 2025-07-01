@@ -11,7 +11,7 @@ import numpy as np
 
 
 # Problem Statement
-This project seeks to investigate how temporal features and weather conditions affect the number of bike rentals per hour, aiming to uncover meaningful insights that can inform operational strategies and improve service responsiveness.
+This project seeks to investigate how temporal features and weather conditions affect the number of bike sharing demand, aiming to uncover meaningful insights that can inform operational strategies and improve service responsiveness.
 
 
 # Introduction
