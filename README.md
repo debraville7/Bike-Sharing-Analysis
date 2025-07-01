@@ -31,9 +31,7 @@ hourly_data = pd.read_csv('https://raw.githubusercontent.com/'\
 'PacktWorkshops/'\
 'The-Data-Analysis-Workshop/'\
 'master/Chapter01/data/hour.csv')
-```
 
-```python
 hourly_data.head(10)
 ```
 
