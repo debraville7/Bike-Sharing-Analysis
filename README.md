@@ -15,7 +15,6 @@ Bike-sharing rental process is highly correlated to the environmental and season
 
 Dataset characteristics
 =========================================	
-Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv
 	
 	- instant: record index
 	- dteday : date
