@@ -6,7 +6,7 @@ This project focuses on analyzing bike sharing data from Capital Bikeshare in Wa
 
 
 # Problem Statement
-This project seeks to investigate how temporal features and weather conditions affect hourly bike-sharing demand, aiming to uncover meaningful insights that can enhance operational strategies and service responsiveness?
+This project seeks to investigate how temporal features and weather conditions affect hourly bike-sharing demand, aiming to uncover meaningful insights that can enhance operational strategies and service responsiveness
 
 
 # Dataset
