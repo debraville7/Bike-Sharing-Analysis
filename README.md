@@ -1,13 +1,13 @@
 # Bike Sharing Analysis
 
-<pre> ```python
+```python
 # imports
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 %matplotlib inline
-``` </pre>
+```
 
 
 # Problem Statement
@@ -27,13 +27,13 @@ This project focuses on analyzing bike sharing data from Capital Bikeshare in Wa
 
 
 ## Understanding the data
-<pre> ```python
+```python
 # load hourly data
 hourly_data = pd.read_csv('https://raw.githubusercontent.com/'\
 'PacktWorkshops/'\
 'The-Data-Analysis-Workshop/'\
 'master/Chapter01/data/hour.csv')
-``` </pre>
+```
 
 ```python
 hourly_data.head(10)
