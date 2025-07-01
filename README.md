@@ -19,6 +19,13 @@ This project seeks to investigate how temporal features and weather conditions a
 
 ## Understanding the data
 ```python
+# imports python libraries
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+%matplotlib inline
+
 # load hourly data
 hourly_data = pd.read_csv('https://raw.githubusercontent.com/'\
 'PacktWorkshops/'\
