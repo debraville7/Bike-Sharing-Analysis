@@ -1,14 +1,5 @@
 # Bike Sharing Analysis
 
-```python
-# imports
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import numpy as np
-%matplotlib inline
-```
-
 
 # Problem Statement
 This project seeks to investigate how temporal features and weather conditions affect the number of bike sharing demand, aiming to uncover meaningful insights that can inform operational strategies and improve service responsiveness.
