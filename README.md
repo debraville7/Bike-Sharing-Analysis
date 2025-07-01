@@ -15,7 +15,7 @@ This project seeks to investigate how temporal features and weather conditions a
 
 
 # Introduction
-This project focuses on analyzing bike-sharing usage data from Capital Bikeshare in Washington, D.C., covering the period from January 1, 2011, to December 31, 2012. The dataset provides hourly aggregated counts of total bike rentals, without individual trip details such as start and end locations. Despite this limitation, the dataset includes rich meteorological information—such as temperature, humidity, and weather conditions—which can be valuable for uncovering patterns in user demand. By examining the relationship between time-based variables and weather factors, this analysis aims to identify trends and influences on hourly bike rental activity, offering insights into how external conditions affect bike-sharing usage.
+This project focuses on analyzing bike sharing data from Capital Bikeshare in Washington, D.C., USA, for the period between January 1, 2011, and December 31, 2012. The data is aggregated on an hourly basis. This means that no initial and final locations of the individual rides are available, but only the total number of rides per hour. Nevertheless, additional meteorological information is available in the data, which could serve as a driving factor for identifying the total number of requests for a specific time frame (bad weather conditions could have a substantial impact on bike sharing demand)
 
 
 ## Understanding the data
