@@ -12,7 +12,7 @@ This project seeks to investigate how temporal features and weather conditions a
 # Dataset
 Bike-sharing rental process is highly correlated to the environmental and seasonal settings. For instance, weather conditions, precipitation, day of week, season, hour of the day, etc. can affect the rental behaviors. The core data set is related to the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington D.C., USA which is publicly available in http://capitalbikeshare.com/system-data. We aggregated the data on two hourly and daily basis and then extracted and added the corresponding weather and seasonal information.
 
-##Dataset characteristics
+Dataset characteristics
 =========================================	
 	
 	- instant: record index
@@ -57,3 +57,18 @@ hourly_data.head(10)
 ```
 
 ![Image](https://github.com/user-attachments/assets/d7397000-2a32-4daf-8071-bf8f93e5debb)
+
+
+```python
+# print some generic statistics about the data
+print(f"Shape of data: {hourly_data.shape}")
+# print some generic statistics about the data
+print(f"Number of missing values in the data:\
+{hourly_data.isnull().sum().sum()}")
+```
+
+
+```python
+# get statistics on the numerical columns
+hourly_data.describe().T
+```
