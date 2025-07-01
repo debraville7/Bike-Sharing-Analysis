@@ -1,13 +1,13 @@
 # Bike Sharing Analysis
 
-```python
+<pre> ```python
 # imports
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 %matplotlib inline
-```
+``` </pre>
 
 
 # Problem Statement
@@ -19,7 +19,7 @@ This project focuses on analyzing bike sharing data from Capital Bikeshare in Wa
 
 
 # Dataset
- The columns are splitted into three main groups:
+ The columns from the original dataset are splitted into three main groups:
 
 - temporal features: This contains information about the time at which the record was registered. This group contains the dteday, season, yr, mnth, hr, holiday, weekday, and workingday columns.
 - weather related features: This contains information about the weather conditions. The weathersit, temp, atemp, hum, and windspeed columns are included in this group.
@@ -27,13 +27,13 @@ This project focuses on analyzing bike sharing data from Capital Bikeshare in Wa
 
 
 ## Understanding the data
-```python
+<pre> ```python
 # load hourly data
 hourly_data = pd.read_csv('https://raw.githubusercontent.com/'\
 'PacktWorkshops/'\
 'The-Data-Analysis-Workshop/'\
 'master/Chapter01/data/hour.csv')
-```
+``` </pre>
 
 ```python
 hourly_data.head(10)
